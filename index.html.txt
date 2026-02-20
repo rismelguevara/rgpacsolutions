@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGP A/C SOLUTIONS LLC | Miami & South Florida HVAC Services</title>
+    <style>
+        :root { --blue-dark: #012a4a; --blue-main: #01497c; --blue-light: #2c7da0; --white: #ffffff; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; color: #333; line-height: 1.6; }
+        
+        /* Navigation with Logo */
+        nav { background: var(--white); padding: 10px 20px; display: flex; justify-content: center; align-items: center; border-bottom: 3px solid var(--blue-dark); }
+        .logo-img { height: 90px; width: auto; }
+
+        /* Hero Section */
+        .hero { 
+            background: linear-gradient(rgba(1, 42, 74, 0.75), rgba(1, 73, 124, 0.75)), 
+                        url('https://images.unsplash.com/photo-1581094288338-2314dddb7903?q=80&w=1200') center/cover;
+            height: 450px; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 20px;
+        }
+        .hero h2 { font-size: 3rem; margin-bottom: 10px; }
+        .hero p { font-style: italic; font-size: 1.5rem; margin-bottom: 25px; font-weight: 300; }
+
+        /* Buttons */
+        .btn-wsp { background: #25d366; color: white; padding: 18px 40px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.2rem; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: 0.3s; }
+        .btn-wsp:hover { transform: scale(1.05); background: #128c7e; }
+        
+        /* Services Container */
+        .container { padding: 50px 20px; max-width: 1100px; margin: auto; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin-top: 35px; }
+        .card { background: #f8fafc; padding: 30px; border-radius: 12px; border-top: 6px solid var(--blue-main); box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .card h3 { color: var(--blue-dark); margin-bottom: 15px; }
+
+        /* Footer */
+        footer { background: var(--blue-dark); color: white; padding: 40px; text-align: center; }
+        footer a { color: #a9d6e5; text-decoration: none; font-weight: bold; }
+        .contact-info { margin-top: 20px; font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <img src="logo.png" alt="RGP A/C SOLUTIONS LLC" class="logo-img">
+    </nav>
+
+    <section class="hero">
+        <h2>RGP A/C SOLUTIONS LLC</h2>
+        <p>"Everything is possible"</p>
+        <a href="https://wa.me/17864639520?text=Hello%20RGP%20A/C%20Solutions,%20I%20need%20a%20quote%20for%20my%20A/C" class="btn-wsp">
+            ❄️ Get a Free Quote on WhatsApp
+        </a>
+    </section>
+
+    <div class="container">
+        <h2 style="color: var(--blue-dark); font-size: 2.2rem;">Our Professional Services</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Installation</h3>
+                <p>Top-rated, high-efficiency cooling systems for your home or business. Expert setup guaranteed.</p>
+            </div>
+            <div class="card">
+                <h3>Maintenance</h3>
+                <p>Preventive tune-ups to keep your unit running smooth and lower your electricity bill.</p>
+            </div>
+            <div class="card">
+                <h3>Repair</h3>
+                <p>Fast diagnostics and reliable fixes for all A/C brands. We get your comfort back on track.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p style="font-size: 1.4rem; margin-bottom: 10px;"><strong>RGP A/C SOLUTIONS LLC</strong></p>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:rgpsolutionsllc@gmail.com">rgpsolutionsllc@gmail.com</a></p>
+            <p>Phone: <a href="tel:+17864639520">+1 (786) 463-9520</a></p>
+            <p style="margin-top: 20px; font-size: 0.9rem; opacity: 0.6;">Serving Miami & South Florida | © 2026 All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
